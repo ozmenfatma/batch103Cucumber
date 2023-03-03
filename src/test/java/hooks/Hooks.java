@@ -31,6 +31,7 @@ Burada onemli olan raporlama isleminin ekran goruntusu ile birlikte Hooks yardim
 
 //                       ekran goruntusu    file tipi                  ekran goruntusunun adi
             scenario.attach(failedScreenshot, "image/png", "failed_scenario_" + scenario.getName());
+
             Driver.closeDriver();
         }
     }
