@@ -19,4 +19,10 @@ public class LoginPage {
 
         @FindBy(xpath = "//button[text()=' Login']")
         public WebElement login;
+
+    @FindBy(xpath = "//a[contains(text(),'Logout')]")
+    public WebElement logOut;
+
+    @FindBy(xpath = "//button[contains(text(),'OK')]")
+    public WebElement OK;
     }
